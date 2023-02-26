@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    height: 350px;
+    background: url(https://images.unsplash.com/photo-1618340338709-027f57b98a16?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80) bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: lightseagreen;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .Links {
+margin-bottom: 50px;
+}
+
+footer .Links > a {
+    color: darkslategray;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+}
