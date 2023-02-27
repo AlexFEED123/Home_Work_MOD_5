@@ -43,3 +43,45 @@ footer .Links > a {
     color: lightslategray;
     font-family: 'Times New Roman', Times, serif;
 }
+
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+.newads::before {
+    content: " NEW ";
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+article:nth-child(even) {
+    background-color: dimgray;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128, 128, 128);
+}
+
+article a {
+    color: black;
+    text-decoration: none;
+}
+
+article a :hover {
+    color: lightseagreen ;
+}
+
+article h2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
